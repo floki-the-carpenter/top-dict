@@ -118,9 +118,9 @@ function App() {
 
   return (
     <div className="container" >
-      <input ref={inp} type="text"   onChange={(e)=>search(e.target.value)} placeholder="enter a English word"  />
-      <textarea  style={{height: "70px" }} value={result} onChange={(e)=>{setResult(e.target.value)}} placeholder="enter en/chn and press ctrl + s to save a record"></textarea>
       <button onClick={()=> togglePin() }>pin</button>
+      <input ref={inp} type="text"   onChange={(e)=>search(e.target.value)} placeholder="enter a English word"  />
+      <textarea  style={{height: "82px" }} value={result} onChange={(e)=>{setResult(e.target.value)}} placeholder="enter en/cn and press ctrl + s to save a record"></textarea>
     </div>
   );
 }

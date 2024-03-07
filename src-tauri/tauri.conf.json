@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "top-dict",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   "tauri": {
     "allowlist": {
@@ -52,8 +52,8 @@
     "windows": [
       {
         "title": "top-dict",
-        "width": 300,
-        "height": 190
+        "width": 260,
+        "height": 191
       }
     ],
     "security": {
